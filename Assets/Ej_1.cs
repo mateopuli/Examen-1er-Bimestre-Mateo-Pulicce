@@ -37,6 +37,11 @@ public class Ej_1 : MonoBehaviour
             Debug.Log("Para ese periodo se necesitan " + pesoalimentoPG + " gramos de alimento");
             Debug.Log("El costo del alimento es de " + precioalimentoPG + " pesos");
         }
+        else
+        {
+            Debug.Log("Error! Lo ingresado no corresponde a un código.");
+        }
+        
     }
 
     // Update is called once per frame
